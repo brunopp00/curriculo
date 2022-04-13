@@ -1,0 +1,54 @@
+@charset "UTF 8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    background-color: #025856;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+header {
+    background-color: #00B3AD;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+main {
+    background-color: #DAFDBA;
+    padding: 10px;
+    margin: 0px 100px;
+}
+
+main > h2 {
+    text-align: center;
+    font-family: 'bebas Neue', cursive;
+    font-weight: bold;
+}
+main > p {
+    text-align: center;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+main > p > a {
+    color: rgb(177, 20, 20);
+    text-decoration: none;
+}
+main > p > a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}
+footer > p > a:hover {
+    text-decoration: underline;
+}
