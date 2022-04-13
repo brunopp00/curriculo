@@ -5,32 +5,44 @@
 body {
     background-color: #025856;
     font-family: 'Bebas Neue', cursive;
-    font-size: 1.2em;
     text-align: justify;
 }
 
 header {
     background-color: #00B3AD;
+    
+    min-height: 150px;
+    padding-top: 40px;
+}
+
+header > h1 {
+    margin-bottom: 40px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.137);
     text-align: center;
-    padding: 20px;
-    margin: 0px;
 }
 
 main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
     background-color: #DAFDBA;
-    padding: 10px;
-    margin: 0px 100px;
 }
-
 main > h2 {
     text-align: center;
     font-family: 'bebas Neue', cursive;
     font-weight: bold;
+    padding-top: 40px;
 }
 main > p {
+    margin: 15px 0px;
     text-align: center;
     font-family:'Open Sans', sans-serif;
     font-weight: bold;
+    line-height: 2em;
+    padding: 0px 10px;
 }
 
 main > p > a {
@@ -44,6 +56,7 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
+    padding: 5px;
 }
 footer > p > a {
     text-decoration: none;
